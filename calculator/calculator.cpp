@@ -1,7 +1,9 @@
 #include "stdafx.h"
 #include "addition.h"
 #include "root.h"
-#include "multiplication.h"
+#include "division.h"
+#include "mult.h"
+#include "sub.h"
 #include "square.h"
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
@@ -37,15 +39,17 @@ int _tmain(int argc, _TCHAR* argv[])
 			}
 		case '-':
 			{
+					cout << "Вычитание: " << sub(a, b) << endl;
 						break;
 			}
 		case '*':
 			{
+					cout << "Умножение: " << mult(a, b) << endl;
 						break;
 			}
 		case '/':
 			{
-					cout << "Деление: " << multiplication(a,b) << endl;
+					cout << "Деление: " << division(a,b) << endl;
 						break;
 			}
 		case '&':
