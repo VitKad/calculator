@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "addition.h"
 #include "root.h"
+#include "multiplication.h"
 #include "square.h"
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
@@ -44,7 +45,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			}
 		case '/':
 			{
-				
+					cout << "Δελενθε: " << multiplication(a,b) << endl;
 						break;
 			}
 		case '&':
