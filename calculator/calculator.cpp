@@ -1,9 +1,8 @@
-// calculator.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
+#include "addition.h"
+#include "square.h"
 using namespace std;
-int main()
+int _tmain(int argc, _TCHAR* argv[])
 {
 	setlocale(LC_ALL, "Rus");
 	float a, b, c;
@@ -31,6 +30,7 @@ int main()
 	{
 		case '+':
 			{
+					cout << "Сложение: " << additon(a, b) << endl;
 						break;
 			}
 		case '-':
@@ -51,6 +51,7 @@ int main()
 			}
 		case '^':
 			{
+					cout << "Квадрат: " << square(a) << endl;
 						break;
 			}
 		default:
