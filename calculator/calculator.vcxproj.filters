@@ -33,7 +33,13 @@
     <ClInclude Include="root.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="multiplication.h">
+    <ClInclude Include="Sub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="division.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,7 +59,13 @@
     <ClCompile Include="root.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="multiplication.cpp">
+    <ClCompile Include="Sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="division.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
