@@ -92,6 +92,7 @@
     <ClCompile Include="Addition.cpp" />
     <ClCompile Include="calculator.cpp" />
     <ClCompile Include="division.cpp" />
+    <ClCompile Include="mult.cpp" />
     <ClCompile Include="root.cpp" />
     <ClCompile Include="square.cpp" />
     <ClCompile Include="stdafx.cpp">
