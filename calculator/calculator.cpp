@@ -34,32 +34,32 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		case '+':
 			{
-					cout << "Сложение: " << additon(a, b) << endl;
+					cout << "Полученное число: " << additon(a, b) << endl;
 						break;
 			}
 		case '-':
 			{
-					cout << "Вычитание: " << sub(a, b) << endl;
+					cout << "Полученное число: " << sub(a, b) << endl;
 						break;
 			}
 		case '*':
 			{
-					cout << "Умножение: " << mult(a, b) << endl;
+					cout << "Полученное число: " << mult(a, b) << endl;
 						break;
 			}
 		case '/':
 			{
-					cout << "Деление: " << division(a,b) << endl;
+					cout << "Полученное число: " << division(a,b) << endl;
 						break;
 			}
 		case '&':
 			{
-					cout << "Корень: " << root(a) << endl;
+					cout << "Полученное число: " << root(a) << endl;
 						break;
 			}
 		case '^':
 			{
-					cout << "Квадрат: " << square(a) << endl;
+					cout << "Полученное число: " << square(a) << endl;
 						break;
 			}
 		default:
