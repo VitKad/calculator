@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
-
-
+#include <iostream>
+#include <cmath>  
+#include <cstdlib>
 // TODO: reference additional headers your program requires here
